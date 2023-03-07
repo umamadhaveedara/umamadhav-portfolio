@@ -1,0 +1,108 @@
+
+*{
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+.container{
+    border: 2px solid red;
+}
+
+.navbar-collapse{
+    justify-content: flex-end;
+}
+.navbar{
+    position: sticky;
+}
+.main-home{
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.main-home img{
+    border: 2px solid #0a66c2;
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+}
+.main-home h1{
+    color: #0a66c2;
+    text-transform: capitalize;
+    font-size: x-large;
+    font-weight: 600;
+}
+.main-home p{
+    font-size: medium;
+    font-weight: 500;
+}
+.main-about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.main-about h2{
+    color: #0a66c2;
+    text-transform: capitalize;
+    font-size: x-large;
+    font-weight: 600;
+}
+.main-about li{
+    list-style: none;
+    font-size: medium;
+    font-weight: 500;
+}
+.main-internship {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.main-internship h2{
+    color: #0a66c2;
+    text-transform: capitalize;
+    font-size: x-large;
+    font-weight: 600;
+}
+.main-internship h3{
+    text-transform: uppercase;
+    font-size: medium;
+    font-weight: 500;  
+}
+.main-internship p{
+    font-size: medium;
+    font-weight: 500;
+}
+.skills1{
+    border: 2px solid #0a66c2;
+    border-radius: 8px;
+    width: 350px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.skills1 h3{
+    color: #0a66c2;
+    font-size: x-large;
+    font-weight: 600;
+    text-align: center;
+}
+.skills1 li{
+    font-size: medium;
+    font-weight: 500;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+}
+.main-skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+}
